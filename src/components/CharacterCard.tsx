@@ -21,7 +21,7 @@ export default function CharacterCard(props: CharacterCardElement) {
   const handleClick = () => {
     // Add a delay before routing to the characters page
     setTimeout(() => {
-      window.location.href = `/character/${props.character.id}#body`;
+      window.location.href = `/character/${props.character.id}`;
     }, 300); // Adjust the delay time as needed (500 milliseconds in this example)
   };
 
