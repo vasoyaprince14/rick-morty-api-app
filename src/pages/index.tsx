@@ -4,7 +4,7 @@ import EpisodeCarousel from "../components/EpisodeCarousel";
 import LocationCarousel from "../components/LocationCarousel";
 import HomeSection from "../components/HomeSection";
 import { useAppSelector } from "../store";
-import OrganismCharacterPagination from "../components/CharacterPagination";
+// import OrganismCharacterPagination from "../components/CharacterPagination";
 // import OrganismCharacterList from "../components/CharacterList";
 
 export default function IndexPage() {

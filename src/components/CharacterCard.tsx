@@ -1,7 +1,7 @@
 
 
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import  { useState } from "react";
+// import { Link } from "react-router-dom";
 import { ICharacter } from "../store";
 import IconPlanet from "./IconPlanet";
 import { HTMLAttributes } from "react";
