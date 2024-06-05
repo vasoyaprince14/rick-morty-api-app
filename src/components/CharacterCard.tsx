@@ -117,7 +117,7 @@ export default function CharacterCard(props: CharacterCardElement) {
           <FavoriteIcon character={props.character} />
         </header>
 
-        {/* </Link> */}
+    
 
         {/* info */}
         <article>
@@ -126,7 +126,7 @@ export default function CharacterCard(props: CharacterCardElement) {
             {props.character.gender}
           </p>
           <p>
-            <i className="bi-activity mr-2"></i>
+            <i className="bi-activity mr-2 "></i>
             {props.character.status}
           </p>
           <p className="w-full text-ellipsis overflow-hidden whitespace-nowrap">
